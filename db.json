@@ -1,11 +1,140 @@
 {
-  "posts": [
+  "meals": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": "rendang",
+      "categoryId": ["nasi, daging"],
+      "name": "Rendang Sapi",
+      "harga": 3,
+      "tingkat kesulitan": 3,
+      "image": "https://ds393qgzrxwzn.cloudfront.net/resize/m720x480/cat1/img/images/0/IAPkgtg7dj.jpg",
+      "durasi": 180,
+      "bahan": [
+        "500 gram daging sapi",
+        "500 ml santan dari 1 butir kelapa",
+        "2000 ml santan dari 1 butir kelapa",
+        "3 cm lengkuas dimemarkan",
+        "2 batang serai diambil bagian putih dan memarkan",
+        "2 lembar daun kunyit dibuat simpul"
+      ],
+      "langkah": [
+        "Pertama, ambil dagingnya lalu silahkan dipotong-potong 2 cm melawan serat supaya empuk lalu sisihkan dulu.",
+        "Masaklah santan encer lalu masukkan lengkuas dan serai. Jangan lupa tambahkan juga daun kunyit dan bumbu halusnya.",
+        "Aduk sampai merata lalu masukkan daging dan masak sampai dagingnya empuk.",
+        "Jika kuah sudah mengental, kamu bisa mulai menuangi santan kentalnya lalu masak pada atas api kecil.",
+        "Aduk terus sampai matang dan juga berminyak serta mengental."
+      ],
+      "glutenFree": false,
+      "vegan": false
+    },
+
+    {
+      "id": "nasi-goreng",
+      "categoryId": ["nasi"],
+      "name": "Nasi Goreng",
+      "harga": 2,
+      "tingkat kesulitan": 1,
+      "image1": "https://ds393qgzrxwzn.cloudfront.net/resize/m720x480/cat1/img/images/0/U735FuDQKl.jpg",
+      "durasi": 20,
+      "bahan": [
+        "1 piring nasi putih",
+        "2 siung bawang putih",
+        "2 buah bawang merah",
+        "1 buah cabai merah",
+        "2 sdm kecap manis",
+        "1 sdt garam",
+        "1 butir telur ayam"
+      ],
+      "langkah": [
+        "Haluskan bawang putih dan juga bawang merah. Haluskan juga cabai rawit serta cabai merah.",
+        "Siapkan wajan lalu panaskan margarin dan tumis bumbu halusnya sampai harum.",
+        "Tambahkan telur dan tumis bersama dengan bumbu.",
+        "Masukkan nasi lalu aduk sampai tercampur rata.",
+        "Tuangi kecap manis, saus tomat dan saus sambal.",
+        "Aduk sampai nasi berubah dan merata lalu siap disajikan."
+      ],
+      "glutenFree": false,
+      "vegan": true
+    },
+
+    {
+      "id": "sate",
+      "categoryId": ["daging"],
+      "name": "Sate",
+      "harga": 2,
+      "tingkat kesulitan": 2,
+      "image1": "https://ds393qgzrxwzn.cloudfront.net/resize/m720x480/cat1/img/images/0/SRmxuu31nt.jpg",
+      "durasi": 60,
+      "bahan": [
+        "100 gram daging ayam tanpa tulang",
+        "2 sdm margarin dicampur sisa bumbu marinasi untuk olesan",
+        "Tusuk sate secukupnya"
+      ],
+      "langkah": [
+        "Potongi kotak-kotak untuk daging ayamnya",
+        "Haluskan bumbu marinasi lalu campur dengan daging ayam yang sudah dipotong lalu aduk merata dan diamkan meresap 30 menit.",
+        "Bakar satenya sesekali dibolak balik dan diolesi bumbu hingga matang.",
+        "Untuk bumbu kecap, silahkan cuci semua bahan lalu tiriskan.",
+        "Irisi cabai dan tomat lalu campur dengan kecap kental manis.",
+        "Aduk semua bahan merata lalu tuang pada sate yang sudah dibakar."
+      ],
+      "glutenFree": true,
+      "vegan": false
+    },
+
+    {
+      "id": "gado-gado",
+      "categoryId": ["nasi", "sayuran"],
+      "name": "Gado-Gado",
+      "harga": 1,
+      "tingkat kesulitan": 1,
+      "image1": "https://ds393qgzrxwzn.cloudfront.net/resize/m720x480/cat1/img/images/0/3hK8KLFy3G.jpg",
+      "durasi": 15,
+      "bahan": [
+        "150 gram kubis diiris-iris kecil",
+        "175 gram bayam",
+        "200 gram mentimun diiris-iris kecil",
+        "175 gram tauge",
+        "300 gram kentang rebus diiris dadu",
+        "200 gram kacang panjang",
+        "300 gram tahu kuning digoreng dan diiris dadu",
+        "Telur rebus dibelah menjadi dua"
+      ],
+      "langkah": [
+        "Rebus semua sayuran sampai lunak lalu tiriskan.",
+        "Haluskan cabe merah, garam, cabe rawit dan juga terasi hingga halus.",
+        "Masukkan kacang tanah dan kacang kenari.",
+        "Tambahkan air asam, kecap, air dan gula merah.",
+        "Biarkan dingin lalu siap disajikan dengan lainnya.",
+        "Ambil piring lalu tambahkan sayuran,kentang dan telur."
+      ],
+      "glutenFree": true,
+      "vegan": true
+    },
+
+    {
+      "id": "sop-buntut",
+      "categoryId": ["kuah", "daging"],
+      "name": "Sop Buntut",
+      "harga": 3,
+      "tingkat kesulitan": 2,
+      "image1": "https://cdns.klimg.com/merdeka.com/i/w/news/2020/10/16/1232081/content_images/670x335/20201016104816-1-ilustrasi-sop-buntut-goreng-001-tantri-setyorini-vmdkimg15155107.jpg",
+      "durasi": 120,
+      "bahan": [
+        "500 gr buntut sapi",
+        "50 gr tetelan daging sapi",
+        "Wortel dan buncis secukupnya",
+        "5 siung bawang merah",
+        "3 siung bawang putih"
+      ],
+      "langkah": [
+        "Rebus buntut sapi dan tetelan hingga empuk, buang air rebusan dan sisihkan.",
+        "Tumis bumbu halus hingga harum, tambahkan cengkeh dan kapulaga.",
+        "Masukkan bumbu ke dalam panci berisi air, buntut sapi, dan tetelan sapi, rebus kembali hingga tercampur rata.",
+        "Jika buntut sapi sudah cukup empuk, masukkan wortel dan buncis.",
+        "Hidangkan selagi masih hangat bersama bawang goreng."
+      ],
+      "glutenFree": true,
+      "vegan": true
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
