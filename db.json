@@ -2,7 +2,7 @@
   "meals": [
     {
       "id": "rendang",
-      "categoryId": ["nasi, daging"],
+      "categoryId": ["nasi", "daging"],
       "name": "Rendang Sapi",
       "harga": 3,
       "tingkat kesulitan": 3,
