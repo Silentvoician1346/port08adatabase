@@ -137,5 +137,22 @@
       "vegan": true
     }
   ],
-  "categories": ["nasi", "daging", "sayuran", "kuah"]
+  "categories": [
+    {
+      "id": "nasi",
+      "categoryId": "nasi"
+    },
+    {
+      "id": "daging",
+      "categoryId": "daging"
+    },
+    {
+      "id": "sayuran",
+      "categoryId": "sayuran"
+    },
+    {
+      "id": "kuah",
+      "categoryId": "kuah"
+    }
+  ]
 }
